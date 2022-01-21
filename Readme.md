@@ -5,6 +5,11 @@
 	<li>version: 1.4 groudId: com.capstone</li>
 	<li>artifactId: com.capstone</li>
 	<li>git remote add origin https://github.com/easyasf/BankingMicroservice</li>
+	<li>git push origin Main</li>
+	<li>git branch dev1</li>
+ 	<li>git branch dev2</li>
+	<li>git push origin dev1</li>
+ 	<li>git push origin dev2</li>
 	<li>touch my_file1.txt</li>
 	<li>git add .</li>
 	<li>git commit "my_file1.txt is modified by dev1"</li>
