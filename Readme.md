@@ -1,43 +1,43 @@
 ## Documentation
 
-
-$ mvn archetype:generate
-version: 1.4 groudId: com.capstone
-artifactId: com.capstone
-
-git remote add origin https://github.com/easyasf/BankingMicroservice
-touch my_file1.txt
-git add .
-git commit "my_file1.txt is modified by dev1"
-git commit -m "my_file1.txt is modified by dev1"
-cat my_file1.txt
-git checkout dev2
-cat 1.java
-cat my_file1.txt
-git commit -m "1.java file is modified by dev2"
-git add .
-git commit -m "my_file1.txt file is modified by dev2"
-cat my_file1.txt
-git checkout Main
-git merge dev1
-cat 1.java
-cat my_file1.txt
-git merge dev2
-git mergetool
-cat my_file1.txt
-git status
-git add .
-cat my_file1.txt
-git status
-touch Readme.md
-vi Readme.md
-git log --oneline
-vi Readme.md
-git add .
-git commit -m "Readme.md file is added"
-git push origin Main
-git log --oneline
-vi Readme.md
+<ul>	
+	<li>$ mvn archetype:generate</li>
+	<li>version: 1.4 groudId: com.capstone</li>
+	<li>artifactId: com.capstone</li>
+	<li>git remote add origin https://github.com/easyasf/BankingMicroservice</li>
+	<li>touch my_file1.txt</li>
+	<li>git add .</li>
+	<li>git commit "my_file1.txt is modified by dev1"</li>
+	<li>git commit -m "my_file1.txt is modified by dev1"</li>
+	<li>cat my_file1.txt</li>
+	<li>git checkout dev2</li>
+	<li>cat 1.java</li>
+	<li>cat my_file1.txt</li>
+	<li>git commit -m "1.java file is modified by dev2"</li>
+	<li>git add .</li>
+	<li>git commit -m "my_file1.txt file is modified by dev2"</li>
+	<li>cat my_file1.txt</li>
+	<li>git checkout Main</li>
+	<li>git merge dev1</li>
+	<li>cat 1.java</li>
+	<li>cat my_file1.txt</li>
+	<li>git merge dev2</li>
+	<li>git mergetool</li>
+	<li>cat my_file1.txt</li>
+	<li>git status</li>
+	<li>git add .</li>
+	<li>cat my_file1.txt</li>
+	<li>git status</li>
+	<li>touch Readme.md</li>
+	<li>vi Readme.md</li>
+	<li>git log --oneline</li>
+	<li>vi Readme.md</li>
+	<li>git add .</li>
+	<li>git commit -m "Readme.md file is added"</li>
+	<li>git push origin Main</li>
+	<li>git log --oneline</li>
+	<li>vi Readme.md</li>
+</ul>
 
 <ul>	
 	<li>c55c102 (HEAD -> Main, origin/Main) Readme.md file is added</li>
